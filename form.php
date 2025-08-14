@@ -4,7 +4,7 @@
     <title>User Form</title>
 </head>
 <body>
-    <form method="POST">
+    <form method="POST" action="process.php">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
         
